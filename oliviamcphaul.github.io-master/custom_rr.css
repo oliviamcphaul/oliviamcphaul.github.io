@@ -1,0 +1,209 @@
+body,
+html {
+
+    Height: 100%;
+    Margin: 0;
+
+}
+
+h1 {
+    font-family: 'Pacifico', cursive;
+}
+
+h4 {
+    font-family: 'Pacifico', cursive;
+    font-size: 15px;
+}
+
+h3 {
+    font-family:'Muli', sans-serif;
+}
+
+h2 {
+    font-family:'Muli', sans-serif;
+}
+
+p {
+    font-family: 'Muli', sans-serif;
+}
+
+a:link,
+a:visited,
+a:active,
+a:focus,
+a:hover {
+    color: #35654A;
+    text-decoration: none;
+}
+
+.title {
+    padding-top: 20px;
+    text-align: center;
+    vertical-align: middle;
+    margin: 10px;
+    color: #35654A;
+}
+
+.tagline {
+
+    text-align: center;
+    vertical-align: middle;
+    padding-bottom: 20px;
+    color: #9C291C;
+}
+
+.d-none {
+    display: inline-block !important;
+}
+
+.navbar {
+    width: 100vw;
+    margin: 0;
+    padding: 10px;
+    background: #E1CD84;
+    font-family: 'Muli', sans-serif;
+    text-align: center;
+    vertical-align: middle;
+
+}
+
+.navbar-nav {
+    float: none;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+}
+
+.navbar-nav>li {
+    display: inline-block;
+    float: none;
+}
+
+.nav-item {
+    padding-right: 10px;
+}
+
+/*
+.navbar-nav, .navbar-light, .nav-link {
+    color: red;
+} */
+
+.navbar-light {
+
+    color: red !important;
+}
+
+.navbar-brand {
+    color: #2E433F !important;
+}
+
+.btn-outline-success {
+    color: #E1CD84;
+    background-color: #9C291C;
+    background-image: none;
+    border-color: #E1CD84;
+}
+
+
+
+.btn-outline-success:hover {
+    color: #9C291C;
+    background-color: #E1CD84;
+    background-image: none;
+    border-color: #9C291C;
+}
+
+.btn-outline-success:focus {
+    color: #9C291C;
+    background-color: #E1CD84;
+    background-image: none;
+    border-color: #9C291C;
+}
+
+.btn-outline-success:not(:disabled):not(.disabled).active:focus,
+.btn-outline-success:not(:disabled):not(.disabled):active:focus,
+.show>.btn-outline-success.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.1rem #E1CD84;
+}
+
+.btn-outline-success:not(:disabled):not(.disabled).active,
+.btn-outline-success:not(:disabled):not(.disabled):active,
+.show>.btn-outline-success.dropdown-toggle {
+    color: #9C291C;
+    background-color: #E1CD84;
+    border-color: #9C291C;
+}
+
+.knowmore {
+    background-color: #E1CD84;
+    margin: 30px;
+    justify-content: center;
+
+}
+
+.know-more-item {
+    justify-content: center;
+    text-align: center;
+    height: 50vh;
+    align-content: center;
+    margin: 0 10px 20px;
+}
+
+.documents {
+    background-image: url("Drawing of Plan.jpg");
+    background-size: cover;
+    background-position: center;
+
+}
+
+.business {
+    background-image: url("Beer.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.articles {
+    background-image: url("Newspaper.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#text {
+    margin-top: 7em;
+    background-color: rgba(260, 260, 260, .75);
+    padding-top: 1em;
+    padding-bottom: .5em;
+    margin-left: .5em;
+    margin-right: .5em;
+}
+
+.know-more-item-row {
+    justify-content: space-around;
+}
+
+#Riverfront {
+    max-width: 600px;
+    width: 100%;
+    position: relative;
+    height: 38vh;
+    background-image: url("https://www.townofshallotte.org/vertical/Sites/%7B84A9E943-E9D6-4534-99F0-B6F654F25036%7D/uploads/DJI00087(1).jpg");
+    background-size: cover;
+}
+
+.description-row {
+    margin-top: 20px;
+}
+
+footer {
+    background-color: #E1CD84;
+    width: 100vw;
+    align-content: center;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 40px;
+
+}
+
+.center {
+    text-align: center !important;
+}
