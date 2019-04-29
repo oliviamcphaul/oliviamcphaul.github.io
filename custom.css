@@ -122,11 +122,11 @@ a:hover {
 
 }
 
-/* .cards {
+.cards {
     margin-left: auto;
     margin-right: auto;
     width: 50vw;
-} */
+}
 
 /* .container {
     width: 100vw;
@@ -214,8 +214,8 @@ a {
     color: rgb(99, 119, 115);
 }
 
-.card-columns {
-   padding: 20px;
+ .card-columns {
+    padding: 20px;
 }
 
 form {
