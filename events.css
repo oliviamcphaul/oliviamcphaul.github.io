@@ -1,0 +1,149 @@
+/* All your custom styles go here. You can override the default Bootstrap styles or add your own custom styles for elements, classes, or IDs.  */
+
+body,
+html {
+
+    Height: 100%;
+    Margin: 0;
+
+}
+
+h1 {
+    font-family: 'Pacifico', cursive;
+}
+
+h4 {
+    font-family: 'Pacifico', cursive;
+    font-size: 15px;
+    color: #35654A;
+}
+
+a:link,
+a:visited,
+a:active,
+a:focus {
+    color: #35654A;
+}
+
+a:hover {
+    color: #2E433F;
+    text-decoration: none;
+}
+
+.title {
+    padding-top: 20px;
+    text-align: center;
+    vertical-align: middle;
+    margin: 10px;
+    color: #35654A;
+}
+
+.tagline {
+
+    text-align: center;
+    vertical-align: middle;
+    padding-bottom: 20px;
+    color: #9C291C;
+}
+
+.d-none {
+    display: inline-block !important;
+}
+
+.navbar {
+    width: 100vw;
+    margin: 0;
+    padding: 10px;
+    background: #E1CD84;
+    font-family: 'Muli', sans-serif;
+    text-align: center;
+    vertical-align: middle;
+
+}
+
+.navbar-nav {
+    float: none;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+}
+
+.navbar-nav>li {
+    display: inline-block;
+    float: none;
+}
+
+.nav-item {
+    padding-right: 10px;
+}
+
+/* 
+.navbar-nav, .navbar-light, .nav-link {
+    color: red;
+} */
+
+.navbar-light {
+
+    color: red !important;
+}
+
+.navbar-brand {
+    color: #2E433F !important;
+}
+
+.btn-outline-success {
+    color: #E1CD84;
+    background-color: #9C291C;
+    background-image: none;
+    border-color: #E1CD84;
+}
+
+
+
+.btn-outline-success:hover {
+    color: #9C291C;
+    background-color: #E1CD84;
+    background-image: none;
+    border-color: #9C291C;
+}
+
+.btn-outline-success:focus {
+    color: #9C291C;
+    background-color: #E1CD84;
+    background-image: none;
+    border-color: #9C291C;
+}
+
+.btn-outline-success:not(:disabled):not(.disabled).active:focus,
+.btn-outline-success:not(:disabled):not(.disabled):active:focus,
+.show>.btn-outline-success.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.1rem #E1CD84;
+}
+
+.btn-outline-success:not(:disabled):not(.disabled).active,
+.btn-outline-success:not(:disabled):not(.disabled):active,
+.show>.btn-outline-success.dropdown-toggle {
+    color: #9C291C;
+    background-color: #E1CD84;
+    border-color: #9C291C;
+}
+
+.img-fluid {
+    width: 100%;
+    max-height: 100%;
+    height: 40vh;
+}
+
+footer {
+    background-color: #E1CD84;
+    width: 100vw;
+    align-content: center;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 40px;
+
+}
+
+.center {
+    text-align: center !important;
+}
