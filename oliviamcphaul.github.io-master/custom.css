@@ -1,0 +1,288 @@
+/* All your custom styles go here. You can override the default Bootstrap styles or add your own custom styles for elements, classes, or IDs.  */
+
+body,
+html {
+
+    Height: 100%;
+    Margin: 0;
+
+}
+
+h1 {
+    font-family: 'Pacifico', cursive;
+}
+
+h4 {
+    font-family: 'Pacifico', cursive;
+    font-size: 15px;
+}
+
+h3 {
+    font-family:'Muli', sans-serif;
+}
+
+h2 {
+    font-family:'Muli', sans-serif;
+}
+
+p {
+    font-family: 'Muli', sans-serif;
+}
+
+.title {
+    padding-top: 20px;
+    text-align: center;
+    vertical-align: middle;
+    margin: 10px;
+    color: #35654A;
+}
+
+a:hover {
+    color: #35654A;
+    text-decoration: none;
+}
+
+.tagline {
+
+    text-align: center;
+    vertical-align: middle;
+    padding-bottom: 20px;
+    color: #9C291C;
+}
+
+.d-none {
+    display: inline-block !important;
+}
+
+.carousel-item {
+    position: relative;
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 20vh;
+}
+
+.navbar {
+    width: 100vw;
+    margin: 0;
+    padding: 10px;
+    background: #E1CD84;
+    font-family: 'Muli', sans-serif;
+    text-align: center;
+    vertical-align: middle;
+
+}
+
+.navbar-nav {
+    float: none;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+}
+
+.navbar-nav>li {
+    display: inline-block;
+    float: none;
+}
+
+.nav-item {
+    padding-right: 10px;
+}
+
+/* 
+.navbar-nav, .navbar-light, .nav-link {
+    color: red;
+} */
+
+.navbar-light {
+
+    color: red !important;
+}
+
+.navbar-brand {
+    color: #2E433F !important;
+}
+
+.btn-outline-success {
+    color: #E1CD84;
+    background-color: #9C291C;
+    background-image: none;
+    border-color: #9C291C;
+    margin: 10px;
+    
+}
+
+.car {
+    color: #E1CD84;
+    background-color: #9C291C;
+    background-image: none;
+    border-color: #9C291C;
+    
+   
+}
+
+.cards {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50vw;
+}
+
+/* .container {
+    width: 100vw;
+  
+    background-color: bisque;
+  
+}
+
+.footer {
+    line-height: 60px;
+    padding-right: 20px;
+    padding-left: 20px;
+    width: 100vw;
+    padding: 0 15px 15px;
+    
+    background-color: bisque;
+    
+} */
+
+.footer {
+    background-color: #E1CD84;
+    width: 100vw;
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+
+a {
+    color: #35654A;
+
+}
+
+.center {
+    text-align: center !important;
+}
+
+.btn-outline-success:hover {
+    color: #9C291C;
+    background-color: #E1CD84;
+    background-image: none;
+    border-color: #9C291C;
+}
+
+.btn-outline-success:focus {
+    color: #9C291C;
+    background-color: #E1CD84;
+    background-image: none;
+    border-color: #9C291C;
+}
+
+.btn-outline-success:not(:disabled):not(.disabled).active:focus,
+.btn-outline-success:not(:disabled):not(.disabled):active:focus,
+.show>.btn-outline-success.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.1rem #E1CD84;
+}
+
+.btn-outline-success:not(:disabled):not(.disabled).active,
+.btn-outline-success:not(:disabled):not(.disabled):active,
+.show>.btn-outline-success.dropdown-toggle {
+    color: #9C291C;
+    background-color: #E1CD84;
+    border-color: #9C291C;
+}
+
+.featurette-image {
+    height: 280px;
+    width: 280px;
+    border-radius: 50%;
+    margin-left: 45px;
+    
+}
+
+
+.feature {
+    margin-left: 150px;
+    margin-right: 20px;
+}
+
+.pagetitle {
+    padding: 20px;
+    text-align: center;
+    color: #2E433F;
+}
+
+.text-mute {
+    color: rgb(99, 119, 115);
+}
+
+.card {
+    width: 50vw;
+    margin-bottom: 20px;
+    margin-left: -10px;
+    border-radius: 1px;
+}
+
+form {
+    display: inline-block;
+}
+
+.card-img-top {
+    /* width: 190px;
+    height: 160px; */
+    padding-top: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+   
+}
+
+ /*    
+...all styles specific to mobile landscape view go here 
+media query for mobile landscape layout (480px to 767px) */
+@media only screen and (max-width: 767px) {
+
+    .feature {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+
+    .smcard {
+       
+        width: 90%;
+        font-size: 50%;
+        
+    }
+
+    .card-img-top {
+        /* width: 190px;
+        height: 160px; */
+    
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 70%;
+       
+    }
+  }
+  
+  /* 
+  ...all styles specific to mobile portrait view go here
+  media query for mobile portrait layout (479px or less) */
+  @media only screen and (max-width: 479px) {
+  
+    .feature {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+  }
+
+  @media only screen and (max-width: 879px) {
+  
+    .feature {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+  }
